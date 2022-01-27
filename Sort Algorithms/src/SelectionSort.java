@@ -36,5 +36,6 @@ public class SelectionSort {
 		array[j] = temp;
 	}
 
-
 }
+
+// selection sort is unstable sort algorithms.
