@@ -35,3 +35,4 @@ public class BubbleSort {
 }
 
 // bubble sort is slow. shouldn't be used on most cases.
+// swap numbers from right to left till smallest number is on left.

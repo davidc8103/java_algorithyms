@@ -39,3 +39,4 @@ public class SelectionSort {
 }
 
 // selection sort is unstable sort algorithms.
+// swap last index number with largest number. swap starts from backward(last index - 1)
