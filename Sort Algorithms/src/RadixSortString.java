@@ -5,6 +5,7 @@ public static void main(String[] args) {
 		
 		String[] stringsArray = { "bcdef", "dbacqc", "abcde", "omadd", "bbbbb" };
 		
+		//26 because there are 26 letters in alphabet and length is 5 on each value in stringsArray
 		radixSort(stringsArray, 26, 5);
 		
 		for(int i = 0; i < stringsArray.length; i++) {
