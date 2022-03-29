@@ -1,6 +1,7 @@
-package test.arraylists;
+package test.doublylinkedlists;
 
 import java.util.Objects;
+
 
 public class Employee {
 	private String firstName;
@@ -59,5 +60,4 @@ public class Employee {
 		Employee other = (Employee) obj;
 		return Objects.equals(firstName, other.firstName) && id == other.id && Objects.equals(lastName, other.lastName);
 	}
-	
 }

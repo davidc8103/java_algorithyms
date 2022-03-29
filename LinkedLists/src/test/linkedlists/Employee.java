@@ -1,6 +1,7 @@
-package test.arraylists;
+package test.linkedlists;
 
 import java.util.Objects;
+
 
 public class Employee {
 	private String firstName;
@@ -60,4 +61,6 @@ public class Employee {
 		return Objects.equals(firstName, other.firstName) && id == other.id && Objects.equals(lastName, other.lastName);
 	}
 	
+	
 }
+
