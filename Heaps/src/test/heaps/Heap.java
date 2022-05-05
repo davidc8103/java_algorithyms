@@ -50,6 +50,18 @@ public class Heap {
 		return deletedValue;
 	}
 	
+	//if you use sort, it will no longer be heap.
+	public void sort() {
+		int lastHeapIndex = size - 1;
+		for(int i = 0; i < lastHeapIndex; i++) {
+			int tmp = heap[0];
+			heap[0] = heap[lastHeapIndex - i];
+			heap[lastHeapIndex - i] = tmp;
+			
+			fixHeapBelow(0, lastHeapIndex - i - 1);
+		}
+	}
+	
 	private void fixHeapAbove(int index) {
 		int newValue = heap[index];
 		while(index > 0 && newValue > heap[getParent(index)]) {
